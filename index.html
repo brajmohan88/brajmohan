@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is project </title>
+    <style>
+        header{
+            background-color: rgb(26, 238, 26);
+            text-align: center;
+            padding: 1rem;
+
+        }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 0rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    nav{
+        margin: 10px;
+
+    }
+    nav ul{
+        list-style: none;
+        padding: 0;
+    
+    }
+    nav ul li{
+        margin: 15px;
+        display: inline;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(17, 92, 17);
+        transition: color 0.3s ease, text-decoration 0.3s ease;
+        
+    }
+    nav ul li a:hover {
+        color: #f5400a;
+        text-decoration: underline; 
+    }
+
+    .contant{
+        padding: 20px;
+        text-align: center;
+    }
+    form h2 {
+        text-align: center;
+        background-color: coral;
+    }
+    form input{
+        border: solid 2px;
+        padding: 0;
+        margin: 10px;
+        width: 250px;
+        height: 25px;
+    }
+    .form-container{
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: solid 1px #ccc;
+        border-radius: 9px;
+
+    }
+    .form-container label{
+        font-weight: bold;
+    }
+    .form-container button{
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(54, 83, 73)
+        ;
+        color: white;
+        border:none ;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+#social{
+    text-align: center;
+    margin: 5%;
+    padding: 0;
+border: solid red;
+border-radius: 4px;
+text-decoration: underline;
+}
+.insta{
+    display: inline;
+    border: solid 1px red;
+    border-radius: 9px;
+    margin: auto;
+    padding: 2;
+    text-align: center;
+    max-width: 400px;
+}
+    
+    
+    </style>
+</head>
+<body>
+ <header>
+    <h1>Brajmohan Project</h1>
+ </header> 
+ <nav>
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
+ </nav>
+ <div class="contant">
+<h2 id="Home">home</h2>
+<p>This is the home page</p>
+
+<h2 id="about">about</h2>
+<p>This is the about</p>
+
+<h2 id="contact">contact</h2>
+<p>this is the contact information Email :- <a href="mailto:brajmohanma;viya92011@gmail.com">Click here</a></p>
+ </div>
+ <form>
+    <h2>send your feedback </h2>
+    <div class="form-container">
+        <label for="name">Enter your name</label>
+        <input type="text" name="username" id="name" placeholder="enter your full name" required>
+
+        <label for="Email">Enter your Email</label>
+        <input type="email" name="email" id="email" placeholder="enter your email id" required>
+
+        <label for="messge">Enter your feedback</label>
+        <textarea name="messge" id="messge" placeholder="type your feedback here......"required></textarea>
+
+        <button type="submit">submit</button>
+    </div>
+ </form>
+ <h2 id="social">social platform link to contact me</h2>
+ <div class="insta">
+    <p>follow the instagram page and dm me if u have any quetion about me and my website</p>
+<h4><img src="instagram-icon-2048x2048-77ljf1sd.png" height="15"> <a href="https://www.instagram.com/brajmohankk/profilecard/?igsh=YjlvaGg4eDFvNmdj">instagram</a></h4>
+<p>IF you cant contact me other socre than you can call me on whatsapp to click here</p>
+<h4><img src="pngimg.com - whatsapp_PNG21.png" height="15"><a href="https://call.whatsapp.com/voice/D9UOejn8L55rquNuAGHbXJ">whatsapp </a></h4>
+ </div>
+ <footer>&copy;2025 website</footer>
+</body>
+</html>
